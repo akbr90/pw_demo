@@ -29,30 +29,20 @@ export default defineConfig({
       name: "dev-chromium",
       use: {
         ...devices["Desktop Chrome"],
-        baseURL: "https://practicetestautomation.com",
-        headless: true,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+       
       },
     },
     {
       name: "dev-firefox",
       use: {
         ...devices["Desktop Firefox"],
-        baseURL: "https://practicetestautomation.com",
-        headless: true,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+       
       },
     },
     {
       name: "dev-webkit",
       use: {
-        ...devices["Desktop Safari"],
-        baseURL: "https://practicetestautomation.com",
-        headless: true,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+        ...devices["Desktop Safari"]
       },
     },
 
@@ -60,21 +50,13 @@ export default defineConfig({
     {
       name: "dev-mobile-chrome",
       use: {
-        ...devices["Pixel 5"],
-        baseURL: "https://practicetestautomation.com",
-        headless: false,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+        ...devices["Pixel 5"]
       },
     },
     {
       name: "dev-mobile-safari",
       use: {
         ...devices["iPhone 12"],
-        baseURL: "https://practicetestautomation.com",
-        headless: false,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
       },
     },
 
@@ -82,31 +64,19 @@ export default defineConfig({
     {
       name: "staging-chromium",
       use: {
-        ...devices["Desktop Chrome"],
-        baseURL: "https://practicetestautomation.com",
-        headless: true,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+        ...devices["Desktop Chrome"]
       },
     },
     {
       name: "staging-firefox",
       use: {
-        ...devices["Desktop Firefox"],
-        baseURL: "https://practicetestautomation.com",
-        headless: true,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+        ...devices["Desktop Firefox"]
       },
     },
     {
       name: "staging-webkit",
       use: {
-        ...devices["Desktop Safari"],
-        baseURL: "https://practicetestautomation.com",
-        headless: true,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+        ...devices["Desktop Safari"]
       },
     },
 
@@ -114,21 +84,13 @@ export default defineConfig({
     {
       name: "staging-mobile-chrome",
       use: {
-        ...devices["Pixel 5"],
-        baseURL: "https://practicetestautomation.com",
-        headless: false,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+        ...devices["Pixel 5"]
       },
     },
     {
       name: "staging-mobile-safari",
       use: {
-        ...devices["iPhone 12"],
-        baseURL: "https://practicetestautomation.com",
-        headless: false,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+        ...devices["iPhone 12"]
       },
     },
 
@@ -136,31 +98,19 @@ export default defineConfig({
     {
       name: "prod-chromium",
       use: {
-        ...devices["Desktop Chrome"],
-        baseURL: "https://practicetestautomation.com",
-        headless: false,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+        ...devices["Desktop Chrome"]
       },
     },
     {
       name: "prod-firefox",
       use: {
-        ...devices["Desktop Firefox"],
-        baseURL: "https://practicetestautomation.com",
-        headless: true,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+        ...devices["Desktop Firefox"]
       },
     },
     {
       name: "prod-webkit",
       use: {
-        ...devices["Desktop Safari"],
-        baseURL: "https://practicetestautomation.com",
-        headless: true,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+        ...devices["Desktop Safari"]
       },
     },
 
@@ -168,21 +118,13 @@ export default defineConfig({
     {
       name: "prod-mobile-chrome",
       use: {
-        ...devices["Pixel 5"],
-        baseURL: "https://practicetestautomation.com",
-        headless: false,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+        ...devices["Pixel 5"]
       },
     },
     {
       name: "prod-mobile-safari",
       use: {
-        ...devices["iPhone 12"],
-        baseURL: "https://practicetestautomation.com",
-        headless: false,
-        screenshot: "only-on-failure",
-        video: "retain-on-failure",
+        ...devices["iPhone 12"]
       },
     },
   ],
