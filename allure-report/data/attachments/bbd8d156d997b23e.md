@@ -1,0 +1,42 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: auth\login.test.ts >> User can login successfully
+- Location: tests\auth\login.test.ts:5:5
+
+# Error details
+
+```
+Error: locator.fill: Test ended.
+Call log:
+  - waiting for locator('#username')
+
+```
+
+# Test source
+
+```ts
+  1  | import { Page } from '@playwright/test';
+  2  | 
+  3  | export class LoginPage {
+  4  | 
+  5  |   constructor(private page: Page) {}
+  6  | 
+  7  |   username = this.page.locator('#username');
+  8  |   password = this.page.locator('#password');
+  9  |   submit = this.page.locator('button[id="submit"]');
+  10 | 
+  11 |   async login(user:string, pass:string) {
+> 12 |     await this.username.fill(user);
+     |                         ^ Error: locator.fill: Test ended.
+  13 |     await this.password.fill(pass);
+  14 |     await this.submit.click();
+  15 |   }
+  16 | }
+  17 | 
+```

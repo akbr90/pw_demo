@@ -1,0 +1,122 @@
+<testsuites id="" name="" tests="30" failures="0" skipped="0" errors="0" time="109.790246">
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="dev-chromium" tests="1" failures="0" skipped="0" time="10.201" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="10.201">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="dev-chromium" tests="1" failures="0" skipped="0" time="1.501" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="1.501">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="dev-firefox" tests="1" failures="0" skipped="0" time="11.484" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="11.484">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="dev-firefox" tests="1" failures="0" skipped="0" time="6.568" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="6.568">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="dev-webkit" tests="1" failures="0" skipped="0" time="9.485" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="9.485">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="dev-webkit" tests="1" failures="0" skipped="0" time="13.404" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="13.404">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="dev-mobile-chrome" tests="1" failures="0" skipped="0" time="11.552" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="11.552">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="dev-mobile-chrome" tests="1" failures="0" skipped="0" time="1.469" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="1.469">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="dev-mobile-safari" tests="1" failures="0" skipped="0" time="20.543" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="20.543">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="dev-mobile-safari" tests="1" failures="0" skipped="0" time="1.347" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="1.347">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="staging-chromium" tests="1" failures="0" skipped="0" time="5.425" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="5.425">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="staging-chromium" tests="1" failures="0" skipped="0" time="4.76" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="4.76">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="staging-firefox" tests="1" failures="0" skipped="0" time="16.419" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="16.419">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="staging-firefox" tests="1" failures="0" skipped="0" time="10.204" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="10.204">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="staging-webkit" tests="1" failures="0" skipped="0" time="11.438" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="11.438">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="staging-webkit" tests="1" failures="0" skipped="0" time="4.476" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="4.476">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="staging-mobile-chrome" tests="1" failures="0" skipped="0" time="10.611" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="10.611">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="staging-mobile-chrome" tests="1" failures="0" skipped="0" time="3.279" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="3.279">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="staging-mobile-safari" tests="1" failures="0" skipped="0" time="7.228" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="7.228">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="staging-mobile-safari" tests="1" failures="0" skipped="0" time="0.956" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="0.956">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="prod-chromium" tests="1" failures="0" skipped="0" time="3.689" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="3.689">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="prod-chromium" tests="1" failures="0" skipped="0" time="1.712" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="1.712">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="prod-firefox" tests="1" failures="0" skipped="0" time="8.141" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="8.141">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="prod-firefox" tests="1" failures="0" skipped="0" time="5.797" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="5.797">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="prod-webkit" tests="1" failures="0" skipped="0" time="5.257" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="5.257">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="prod-webkit" tests="1" failures="0" skipped="0" time="3.21" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="3.21">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="prod-mobile-chrome" tests="1" failures="0" skipped="0" time="7.282" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="7.282">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="prod-mobile-chrome" tests="1" failures="0" skipped="0" time="1.346" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="1.346">
+</testcase>
+</testsuite>
+<testsuite name="auth\login.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="prod-mobile-safari" tests="1" failures="0" skipped="0" time="4.249" errors="0">
+<testcase name="User can login successfully" classname="auth\login.test.ts" time="4.249">
+</testcase>
+</testsuite>
+<testsuite name="simple.test.ts" timestamp="2026-07-05T09:06:05.145Z" hostname="prod-mobile-safari" tests="1" failures="0" skipped="0" time="0.934" errors="0">
+<testcase name="sanity" classname="simple.test.ts" time="0.934">
+</testcase>
+</testsuite>
+</testsuites>
