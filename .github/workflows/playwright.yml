@@ -1,8 +1,12 @@
 name: Playwright Tests with Allure
+
 on:
   push:
     branches:
-      - main   # or your default branch
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   test:
@@ -10,12 +14,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
@@ -26,8 +31,11 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test
 
+      - name: Install Allure CLI
+        run: npm install -g allure-commandline
+
       - name: Download Allure history
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: allure-history
           path: ./allure-results/history
@@ -35,17 +43,17 @@ jobs:
 
       - name: Generate Allure report
         run: |
+          mkdir -p ./allure-report/history
           npx allure generate ./allure-results --clean -o ./allure-report
 
       - name: Upload Allure history
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-history
           path: ./allure-report/history
 
-      # Deploy Allure report to GitHub Pages
       - name: Deploy report to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
